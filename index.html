@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en" class="max-w-3xl mx-auto font-mono scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portofolio Website</title>
+    <link rel="stylesheet" href="dist/output.css">
+</head>
+
+<body id="body" class="dark:bg-black">
+    <div class="container flex flex-col gap-4 p-4 mx-auto">
+        <!-- title -->
+        <div class="flex items-center justify-between">
+            <h1 id="welcome" class="font-bold text-8xl dark:text-white">Hi</h1>
+            <button id="darkModeToggle"
+                class="px-4 py-2 text-sm text-white bg-black border border-black rounded-lg hover:bg-white hover:text-black hover:border hover:border-black hover:transition-all dark:text-black dark:bg-white dark:hover:bg-black dark:hover:text-white dark:hover:border dark:hover:border-white dark:border dark:border-white">DRK</button>
+        </div>
+        <!-- profile -->
+        <div class="flex flex-col gap-4 sm:flex-row">
+            <div id="profile"
+                class="bg-black border border-black rounded-lg p-10 flex flex-col items-center justify-center gap-4 sm:flex-[1_0_calc(40%-16px)] dark:bg-white dark:border dark:border-white">
+                <img class="rounded-full aspect-square w-28" src="dist/img/FOTO JUNDI.jpg" alt="foto-profil">
+                <p class="text-2xl font-semibold text-center text-white dark:text-black">Ismail Jundi</p>
+                <p class="text-sm text-center text-white dark:text-black">UI Designer | Web Programmer</p>
+                <div class="flex gap-4">
+                    <a class="w-5 h-5 hover:motion-safe:animate-bounce dark:invert"
+                        href="https://github.com/ismailjundi" target="_blank">
+                        <img src="dist/img/github_icon.svg" alt="github_icon">
+                    </a>
+                    <a class="w-5 h-5 hover:motion-safe:animate-bounce dark:invert"
+                        href="https://instagram.com/jundismail" target="_blank">
+                        <img src="dist/img/instagram_icon.svg" alt="instagram_icon">
+                    </a>
+                    <a class="w-5 h-5 hover:motion-safe:animate-bounce dark:invert"
+                        href="https://twitter.com/misugiijun" target="_blank">
+                        <img src="dist/img/x_icon.svg" alt="x_icon">
+                    </a>
+                </div>
+            </div>
+            <!-- description -->
+            <div id="desc"
+                class="border border-black rounded-lg p-8 flex flex-col gap-4 items-center justify-center sm:flex-[1_0_calc(60%-16px)] dark:border-white">
+                <p class="text-lg dark:text-white text-balance">I am currently a member of</p>
+                <img class="invert dark:invert-0" src="dist/img/nulisproduktiv-logo.svg" alt="nulisproduktiv-logo">
+                <a class="px-3 py-1 text-sm text-center text-white bg-black border rounded-lg hover:bg-white hover:border-black hover:text-black hover:transition-all dark:text-black dark:bg-white dark:hover:bg-black dark:hover:border-white dark:hover:text-white"
+                    href="https://instagram.com/nulisproduktiv" target="_blank">Visit
+                    #nulisproduktiv &nearrow;</a>
+            </div>
+        </div>
+        <!-- projects -->
+        <h2 class="text-2xl font-semibold dark:text-white">My projects</h2>
+        <div id="projects" class="flex flex-col gap-4 lg:flex-row lg:flex-wrap">
+            <div
+                class="border border-black rounded-lg p-8 flex flex-col gap-4 lg:flex-[1_0_calc(50%-16px)] dark:border-white">
+                <div class="flex flex-col ">
+                    <p class="text-lg font-semibold dark:text-white">GPBUS</p>
+                    <p class="text-base text-slate-500">Bus Monitoring System</p>
+                </div>
+                <hr class="border-black dark:border-white">
+                <div class="flex flex-col justify-between h-full gap-4">
+                    <p class="text-base dark:text-white">GPBUS Bus Monitoring
+                        System is a
+                        Final Project website that I worked on. The website is used to monitor the position and
+                        number of passengers on the bus.</p>
+                    <a class="w-full px-3 py-1 text-sm text-center text-white bg-black border rounded-lg hover:bg-white hover:border-black hover:text-black hover:transition-all dark:text-black dark:bg-white dark:hover:bg-black dark:hover:border-white dark:hover:text-white"
+                        href="https://gpbus-bandung-01.web.app/" target="_blank">Visit
+                        GPBUS &nearrow;</a>
+                </div>
+            </div>
+            <div
+                class="border border-black rounded-lg p-8 flex flex-col gap-4 lg:flex-[1_0_calc(50%-16px)] dark:border-white">
+                <div class="flex flex-col">
+                    <p class="text-lg font-semibold dark:text-white">NOMADS</p>
+                    <p class="text-base text-slate-500">Travel Agent Website UI Design</p>
+                </div>
+                <hr class="border-black dark:border-white">
+                <div class="flex flex-col justify-between h-full gap-4">
+                    <p class="text-base dark:text-white">NOMADS UI Design is a UI Design
+                        of a
+                        Travel website that was done by me to learn Fullstack Web Developer at
+                        Buildwithangga. The UI Design is used for prototyping travel agent websites.</p>
+                    <a class="w-full px-3 py-1 text-sm text-center text-white bg-black border rounded-lg hover:bg-white hover:border-black hover:text-black hover:transition-all dark:text-black dark:bg-white dark:hover:bg-black dark:hover:border-white dark:hover:text-white"
+                        href="https://www.figma.com/proto/zJgsY8HW1xleuA7ci6RqoK/BWA-Fullstack-Web-Dev?type=design&node-id=1-2&t=L2G1Nrnl56Anv4wN-8&scaling=scale-down-width&page-id=0%3A1&starting-point-node-id=1%3A2&hide-ui=1"
+                        target="_blank">Visit
+                        NOMADS &nearrow;</a>
+                </div>
+            </div>
+            <div
+                class="border border-black rounded-lg p-8 flex flex-col gap-4 lg:flex-[1_0_calc(50%-16px)] dark:border-white">
+                <div class="flex flex-col">
+                    <p class="text-lg font-semibold dark:text-white">CRYPTOKU</p>
+                    <p class="text-base text-slate-500">Cryptocurrency Website UI Design</p>
+                </div>
+                <hr class="border-black dark:border-white">
+                <div class="flex flex-col justify-between h-full gap-4">
+                    <p class="text-base dark:text-white">CRYPTOKU UI Design is a UI Design
+                        of
+                        a Travel website that was done by me to learn UI Design in mentoring. The UI Design
+                        is used for prototyping cryptocurrency websites.</p>
+                    <a class="w-full px-3 py-1 text-sm text-center text-white bg-black border rounded-lg hover:bg-white hover:border-black hover:text-black hover:transition-all dark:text-black dark:bg-white dark:hover:bg-black dark:hover:border-white dark:hover:text-white"
+                        href="https://www.figma.com/proto/59KLVGpAMhAG60liTf1nah/UI-UX-Dibimbing-Course?node-id=2-2&starting-point-node-id=2%3A2&hide-ui=1&t=vIwCowOjqEkxQh3r-8"
+                        target="_blank">Visit
+                        CRYPTOKU &nearrow;</a>
+                </div>
+            </div>
+        </div>
+        <!-- contact -->
+        <h2 class="text-2xl font-semibold dark:text-white">Contact Me</h2>
+        <div id="contact" class="flex flex-col">
+            <form class="flex flex-col gap-4">
+                <div class="flex flex-col gap-1 input-data">
+                    <label class="text-lg dark:text-white" for="Nama">Name</label>
+                    <input
+                        class="w-full px-4 py-2 text-base border border-black rounded-lg dark:bg-black dark:border-white dark:text-white placeholder:text-slate-500"
+                        id="name" type="text" placeholder="Insert Name" required>
+                </div>
+                <div class="flex flex-col gap-1 input-data">
+                    <label class="text-lg dark:text-white" for="Email">Email</label>
+                    <input
+                        class="w-full px-4 py-2 text-base border border-black rounded-lg dark:bg-black dark:border-white dark:text-white placeholder:text-slate-500"
+                        id="email" type="email" placeholder="Insert Email" required>
+                </div>
+                <div class="flex flex-col gap-1 input-data">
+                    <label class="text-lg dark:text-white" for="Pesan">Message</label>
+                    <textarea
+                        class="w-full px-4 py-2 text-base border border-black rounded-lg resize-none dark:bg-black dark:border-white dark:text-white placeholder:text-slate-500"
+                        name="pesan" id="message" cols="30" rows="5" placeholder="Insert Message"></textarea>
+                </div>
+                <button
+                    class="px-3 py-1 text-sm text-center text-white bg-black border rounded-lg hover:bg-white hover:border-black hover:text-black hover:transition-all dark:text-black dark:bg-white dark:hover:bg-black dark:hover:border-white dark:hover:text-white"
+                    type="submit">Send</button>
+            </form>
+        </div>
+        <!-- spotify -->
+        <div id="spotify" class="flex flex-col w-full gap-4 md:flex-row md:flex-wrap">
+            <iframe class="w-full rounded-lg md:flex-row md:flex-[1_0_calc(50%-16px)]"
+                src="https://open.spotify.com/embed/playlist/7yfz7wFac1QlP18X2gnsZI?utm_source=generator"
+                alt="spotify-music-1" width="100%" height="352" loading="lazy"></iframe>
+            <iframe class="w-full rounded-lg md:flex-row md:flex-[1_0_calc(50%-16px)]"
+                src="https://open.spotify.com/embed/playlist/4boGLT97uaCQ11VGCAT2Jq?utm_source=generator"
+                alt="spotify-music-2" width="100%" height="352" loading="lazy"></iframe>
+        </div>
+        <!-- footer -->
+        <div id="footer" class="text-[10px] text-center dark:text-white">
+            ISMAIL JUNDI 2023 &copy;
+        </div>
+    </div>
+    <!-- back to top -->
+    <a href="#body" id="back-to"
+        class="fixed hidden px-3 py-1 text-white bg-black border border-black rounded-lg bottom-4 right-4 hover:text-black hover:bg-white hover:border-black dark:text-black dark:bg-white dark:border-white dark:hover:text-white dark:hover:bg-black dark:hover:border-white">&uarr;</a>
+    <!-- script -->
+    <script src="app.js"></script>
+</body>
+
+</html>
